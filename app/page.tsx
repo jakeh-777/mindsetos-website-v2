@@ -16,6 +16,8 @@ import {
   Target,
   Users,
   Compass,
+  Eye,
+  Lightbulb,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -104,41 +106,24 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-black mb-6 font-serif leading-tight">
+          <h1 className="text-2xl md:text-4xl font-bold text-black mb-6 font-serif leading-tight">
             Healthy High Performance
             <br />
-            Starts From Within
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-12 leading-relaxed max-w-3xl mx-auto">
-            MindsetOS is a digital coaching platform that helps individuals and teams develop the mental and emotional
-            fitness to thrive — without burning out or losing what matters most.
+            MindsetOS helps you to grow your mental and emotional fitness so you can live, lead, and perform at your
+            best.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <div className="flex justify-center mb-12">
             <Button
               size="lg"
               className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium px-8 py-4 text-lg rounded-full"
             >
-              Explore the Platform
+              Discover your Mindset
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-gray-300 text-gray-900 hover:bg-gray-100 px-6 py-4 rounded-full bg-transparent"
-              >
-                For Individuals
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-gray-300 text-gray-900 hover:bg-gray-100 px-6 py-4 rounded-full bg-transparent"
-              >
-                For Businesses
-              </Button>
-            </div>
           </div>
 
           {/* Mindset Chips */}
@@ -181,11 +166,11 @@ export default function HomePage() {
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Daily AI coaching insights
+                    On-Demand AI coaching
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Sustainable performance strategies
+                    Virtual & Live cohorts
                   </li>
                 </ul>
               </CardContent>
@@ -207,15 +192,15 @@ export default function HomePage() {
                 <ul className="space-y-3">
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Team mindset assessments
+                    Team mindset mapping
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Leadership development programs
+                    2-Day transformative workshop
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Culture transformation tools
+                    MindsetOS AI-coaching 
                   </li>
                 </ul>
               </CardContent>
@@ -235,15 +220,10 @@ export default function HomePage() {
             {/* Explore - Mindset Mapping */}
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-8 text-center">
-                <div className="bg-blue-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                  <Compass className="h-8 w-8 text-blue-600" />
+                <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                  <Compass className="h-8 w-8 text-black-600" />
                 </div>
-                <div className="mb-4">
-                  <span className="bg-yellow-100 text-yellow-800 text-xs font-medium px-3 py-1 rounded-full">
-                    Most Personalised
-                  </span>
-                </div>
-                <h3 className="text-xl font-bold text-black mb-4 font-serif">Explore – Mindset Mapping</h3>
+                <h3 className="text-xl font-bold text-black mb-4 font-serif">Explore</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Understand your unique blend of the 7 mindsets and build self-awareness through comprehensive
                   assessment and insights.
@@ -254,10 +234,10 @@ export default function HomePage() {
             {/* Discover - AI Coaching */}
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-8 text-center">
-                <div className="bg-purple-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                  <Brain className="h-8 w-8 text-purple-600" />
+                <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                  <Brain className="h-8 w-8 text-black-600" />
                 </div>
-                <h3 className="text-xl font-bold text-black mb-4 font-serif">Discover – AI Coaching</h3>
+                <h3 className="text-xl font-bold text-black mb-4 font-serif">Discover</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Get daily insights and reflection prompts from the MindsetOS Coach, tailored to your personal growth
                   journey.
@@ -268,13 +248,8 @@ export default function HomePage() {
             {/* Live Cohorts */}
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-8 text-center">
-                <div className="bg-green-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                  <Target className="h-8 w-8 text-green-600" />
-                </div>
-                <div className="mb-4">
-                  <span className="bg-yellow-100 text-yellow-800 text-xs font-medium px-3 py-1 rounded-full">
-                    Most Transformative
-                  </span>
+                <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                  <Target className="h-8 w-8 text-black-600" />
                 </div>
                 <h3 className="text-xl font-bold text-black mb-4 font-serif">Live Cohorts</h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -311,12 +286,48 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* How It Works Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-black mb-8">How MindsetOS Works</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="p-6">
+              <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Eye className="h-8 w-8 text-yellow-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-black mb-3">Map Your Inner World</h3>
+              <p className="text-gray-600">
+                Answer 12 powerful questions per mindset to understand your current patterns and growth edges.
+              </p>
+            </div>
+            <div className="p-6">
+              <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Brain className="h-8 w-8 text-yellow-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-black mb-3">Personalized Coaching</h3>
+              <p className="text-gray-600">
+                Receive AI-based coaching tailored to your mindset patterns, real-time context, and aspirations.
+              </p>
+            </div>
+            <div className="p-6">
+              <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Lightbulb className="h-8 w-8 text-yellow-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-black mb-3">Build Mastery</h3>
+              <p className="text-gray-600">
+                Expand your mastery within each mindset and spend more time in the lighter, freer states.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-yellow-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6 font-serif">Ready to Shift Your Mindset?</h2>
           <p className="text-xl text-gray-700 mb-12">
-            Join thousands of individuals and teams already transforming their approach to high performance.
+            Join the individuals and teams already transforming their approach to high performance.
           </p>
 
           {!isSubmitted ? (
@@ -354,8 +365,8 @@ export default function HomePage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 font-serif">MindsetOS</h3>
               <p className="text-gray-300 leading-relaxed">
-                A digital coaching platform for healthy high performance, helping individuals and teams thrive without
-                burnout.
+                A human-trained, AI coaching platform for healthy high performance, helping individuals and teams thrive
+                without burnout.
               </p>
             </div>
 
