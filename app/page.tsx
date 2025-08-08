@@ -22,6 +22,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
+import Link from "next/link"
 
 export default function HomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -60,12 +61,12 @@ export default function HomePage() {
               <a href="#" className="text-gray-900 hover:text-gray-600 transition-colors">
                 Home
               </a>
-              <a href="#" className="text-gray-900 hover:text-gray-600 transition-colors">
+              <Link href="/mindset-app" className="text-gray-900 hover:text-gray-600 transition-colors">
                 MindsetOS App
-              </a>
-              <a href="#" className="text-gray-900 hover:text-gray-600 transition-colors">
+              </Link>
+              <Link href="/live-cohorts" className="text-gray-900 hover:text-gray-600 transition-colors">
                 Live Cohorts
-              </a>
+              </Link>
             </nav>
 
             {/* CTA Button */}
@@ -88,12 +89,12 @@ export default function HomePage() {
                 <a href="#" className="text-gray-900 hover:text-gray-600 transition-colors">
                   Home
                 </a>
-                <a href="#" className="text-gray-900 hover:text-gray-600 transition-colors">
+                <Link href="/mindset-app" className="text-gray-900 hover:text-gray-600 transition-colors">
                   MindsetOS App
-                </a>
-                <a href="#" className="text-gray-900 hover:text-gray-600 transition-colors">
+                </Link>
+                <Link href="/live-cohorts" className="text-gray-900 hover:text-gray-600 transition-colors">
                   Live Cohorts
-                </a>
+                </Link>
                 <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium w-full">
                   Download the App
                 </Button>
@@ -371,15 +372,15 @@ Join guided experiences led by performance psychologist and expert coach Ed Corn
             {/* Links */}
             <div className="flex justify-center">
               <div className="space-y-3">
-                <a href="#" className="block text-gray-300 hover:text-white transition-colors">
+                <Link href="/" className="block text-gray-300 hover:text-white transition-colors">
                   Home
-                </a>
-                <a href="#" className="block text-gray-300 hover:text-white transition-colors">
+                </Link>
+                <Link href="/mindset-app" className="block text-gray-300 hover:text-white transition-colors">
                   MindsetOS App
-                </a>
-                <a href="#" className="block text-gray-300 hover:text-white transition-colors">
+                </Link>
+                <Link href="/live-cohorts" className="block text-gray-300 hover:text-white transition-colors">
                   Live Cohorts
-                </a>
+                </Link>
               </div>
             </div>
 
