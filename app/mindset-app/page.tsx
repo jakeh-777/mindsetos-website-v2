@@ -287,10 +287,10 @@ export default function MindsetAppPage() {
                 </span>
               </div>
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold text-black mb-2 font-serif">Transform</h3>
+                <h3 className="text-2xl font-bold text-black mb-2 font-serif">Explore</h3>
                 <p className="text-gray-600 mb-6">Full access to AI coaching and advanced features</p>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-black">$29</span>
+                  <span className="text-4xl font-bold text-black">$6.99</span>
                   <span className="text-gray-600">/month</span>
                 </div>
                 <ul className="space-y-3 mb-8">
