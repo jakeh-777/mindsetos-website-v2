@@ -223,10 +223,9 @@ export default function HomePage() {
                 <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                   <Compass className="h-8 w-8 text-black-600" />
                 </div>
-                <h3 className="text-xl font-bold text-black mb-4 font-serif">Explore</h3>
+                <h3 className="text-xl font-bold text-black mb-4 font-serif">Discover</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Understand your unique blend of the 7 mindsets and build self-awareness through comprehensive
-                  assessment and insights.
+                 Every mindset map tells a story. Explore your unique combination of the 7 mindsets and develop the clarity and awareness needed for lasting growth.
                 </p>
               </CardContent>
             </Card>
@@ -237,10 +236,10 @@ export default function HomePage() {
                 <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                   <Brain className="h-8 w-8 text-black-600" />
                 </div>
-                <h3 className="text-xl font-bold text-black mb-4 font-serif">Discover</h3>
+                <h3 className="text-xl font-bold text-black mb-4 font-serif">Explore</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Get daily insights and reflection prompts from the MindsetOS Coach, tailored to your personal growth
-                  journey.
+        Move from self-awareness to self-development.
+Guided by AI, trained extensively in expert coaching psychology and the MindsetOS framework, you'll receive tailored reflections that reveal what healthy high performance means for you.
                 </p>
               </CardContent>
             </Card>
@@ -253,8 +252,8 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold text-black mb-4 font-serif">Live Cohorts</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Join guided experiences led by expert coach Ed Cornfield to go deeper and connect with like-minded
-                  individuals.
+                  Growth is more powerful when it’s shared.
+Join guided experiences led by performance psychologist and expert coach Ed Cornfield to go deeper, apply your mindset in real life, and connect with others on the same journey.
                 </p>
               </CardContent>
             </Card>
@@ -304,9 +303,9 @@ export default function HomePage() {
               <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Brain className="h-8 w-8 text-yellow-600" />
               </div>
-              <h3 className="text-xl font-semibold text-black mb-3">Personalized Coaching</h3>
+              <h3 className="text-xl font-semibold text-black mb-3">Personalised Coaching</h3>
               <p className="text-gray-600">
-                Receive AI-based coaching tailored to your mindset patterns, real-time context, and aspirations.
+                Receive human-trained, AI coaching, tailored to your mindset patterns, real-time context, and aspirations. Wherever you are, whenever you want.
               </p>
             </div>
             <div className="p-6">
@@ -327,7 +326,7 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6 font-serif">Ready to Shift Your Mindset?</h2>
           <p className="text-xl text-gray-700 mb-12">
-            Join the individuals and teams already transforming their approach to high performance.
+            Join the individuals and teams already reshaping their approach to high performance.
           </p>
 
           {!isSubmitted ? (
@@ -365,8 +364,7 @@ export default function HomePage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 font-serif">MindsetOS</h3>
               <p className="text-gray-300 leading-relaxed">
-                A human-trained, AI coaching platform for healthy high performance, helping individuals and teams thrive
-                without burnout.
+                A human-trained, AI coaching app, designed for healthy high performance, helping individuals and teams to unlock new levels of emotional & mental fitness. 
               </p>
             </div>
 
