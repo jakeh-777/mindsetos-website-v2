@@ -58,20 +58,28 @@ export default function HomePage() {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-gray-900 hover:text-gray-600 transition-colors">
+              <Link href="/" className="text-gray-900 hover:text-gray-600 transition-colors">
                 Home
-              </a>
-              <Link href="/mindset-app" className="text-gray-900 hover:text-gray-600 transition-colors">
-                MindsetOS App
               </Link>
-              <Link href="/live-cohorts" className="text-gray-900 hover:text-gray-600 transition-colors">
-                Live Cohorts
+              <Link href="/how-it-works" className="text-gray-900 hover:text-gray-600 transition-colors">
+                How It Works
+              </Link>
+              <Link href="/for-teams" className="text-gray-900 hover:text-gray-600 transition-colors">
+                For Teams
+              </Link>
+              <Link href="/mindset-framework" className="text-gray-900 hover:text-gray-600 transition-colors">
+                7 Mindset Framework
+              </Link>
+              <Link href="/join" className="text-gray-900 hover:text-gray-600 transition-colors">
+                Join Us
               </Link>
             </nav>
 
             {/* CTA Button */}
             <div className="hidden md:block">
-              <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium">Download the App</Button>
+              <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium" asChild>
+                <Link href="/join">Get Started</Link>
+              </Button>
             </div>
 
             {/* Mobile menu button */}
@@ -86,18 +94,21 @@ export default function HomePage() {
           {isMenuOpen && (
             <div className="md:hidden py-4 border-t border-gray-200">
               <div className="flex flex-col space-y-4">
-                <a href="#" className="text-gray-900 hover:text-gray-600 transition-colors">
+                <Link href="/" className="text-gray-900 hover:text-gray-600 transition-colors">
                   Home
-                </a>
-                <Link href="/mindset-app" className="text-gray-900 hover:text-gray-600 transition-colors">
-                  MindsetOS App
                 </Link>
-                <Link href="/live-cohorts" className="text-gray-900 hover:text-gray-600 transition-colors">
-                  Live Cohorts
+                <Link href="/how-it-works" className="text-gray-900 hover:text-gray-600 transition-colors">
+                  How It Works
                 </Link>
-                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium w-full">
-                  Download the App
-                </Button>
+                <Link href="/for-teams" className="text-gray-900 hover:text-gray-600 transition-colors">
+                  For Teams
+                </Link>
+                <Link href="/mindset-framework" className="text-gray-900 hover:text-gray-600 transition-colors">
+                  7 Mindset Framework
+                </Link>
+                <Link href="/join" className="text-gray-900 hover:text-gray-600 transition-colors">
+                  Join Us
+                </Link>
               </div>
             </div>
           )}
@@ -109,7 +120,6 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-2xl md:text-4xl font-bold text-black mb-6 font-serif leading-tight">
             Healthy High Performance
-            <br />
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-12 leading-relaxed max-w-3xl mx-auto">
             MindsetOS helps you to grow your mental and emotional fitness so you can live, lead, and perform at your
@@ -121,9 +131,12 @@ export default function HomePage() {
             <Button
               size="lg"
               className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium px-8 py-4 text-lg rounded-full"
+              asChild
             >
-              Discover your Mindset
-              <ArrowRight className="ml-2 h-5 w-5" />
+              <Link href="/how-it-works">
+                Discover Your Mindset
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
             </Button>
           </div>
 
@@ -174,6 +187,9 @@ export default function HomePage() {
                     Virtual & Live cohorts
                   </li>
                 </ul>
+                <Button className="mt-6 bg-yellow-400 hover:bg-yellow-500 text-black font-medium" asChild>
+                  <Link href="/join">Start Your Journey</Link>
+                </Button>
               </CardContent>
             </Card>
 
@@ -201,9 +217,12 @@ export default function HomePage() {
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    MindsetOS AI-coaching 
+                    MindsetOS AI-coaching
                   </li>
                 </ul>
+                <Button className="mt-6 bg-yellow-400 hover:bg-yellow-500 text-black font-medium" asChild>
+                  <Link href="/for-teams">See How We Work With Teams</Link>
+                </Button>
               </CardContent>
             </Card>
           </div>
@@ -226,7 +245,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold text-black mb-4 font-serif">Discover</h3>
                 <p className="text-gray-700 leading-relaxed">
-                 Every mindset map tells a story. Explore your unique combination of the 7 mindsets and develop the clarity and awareness needed for lasting growth.
+                  Every mindset map tells a story. Explore your unique combination of the 7 mindsets and develop the clarity and awareness needed for lasting growth.
                 </p>
               </CardContent>
             </Card>
@@ -239,8 +258,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold text-black mb-4 font-serif">Explore</h3>
                 <p className="text-gray-700 leading-relaxed">
-        Move from self-awareness to self-development.
-Guided by AI, trained extensively in expert coaching psychology and the MindsetOS framework, you'll receive tailored reflections that reveal what healthy high performance means for you.
+                  Move from self-awareness to self-development. Guided by AI, trained extensively in expert coaching psychology and the MindsetOS framework, you'll receive tailored reflections that reveal what healthy high performance means for you.
                 </p>
               </CardContent>
             </Card>
@@ -253,9 +271,11 @@ Guided by AI, trained extensively in expert coaching psychology and the MindsetO
                 </div>
                 <h3 className="text-xl font-bold text-black mb-4 font-serif">Live Cohorts</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Growth is more powerful when it’s shared.
-Join guided experiences led by performance psychologist and expert coach Ed Cornfield to go deeper, apply your mindset in real life, and connect with others on the same journey.
+                  Growth is more powerful when it’s shared. Join guided experiences led by performance psychologist and expert coach Ed Cornfield to go deeper, apply your mindset in real life, and connect with others on the same journey.
                 </p>
+                <Link href="/how-it-works" className="inline-block mt-4 text-yellow-600 font-semibold">
+                  Learn More →
+                </Link>
               </CardContent>
             </Card>
           </div>
@@ -338,66 +358,34 @@ Join guided experiences led by performance psychologist and expert coach Ed Corn
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="flex-1 px-6 py-4 text-lg rounded-full border-gray-300 focus:border-yellow-400 focus:ring-yellow-400"
+                className="flex-grow"
               />
               <Button
                 type="submit"
                 size="lg"
                 className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium px-8 py-4 text-lg rounded-full whitespace-nowrap"
+                asChild
               >
-                Register Your Interest
+                <Link href="/join">Register Your Interest</Link>
               </Button>
             </form>
           ) : (
-            <div className="flex items-center justify-center gap-3 text-green-600 text-lg">
-              <CheckCircle className="h-6 w-6" />
-              <span>Thank you! We'll be in touch soon.</span>
-            </div>
+            <p className="text-green-600 font-semibold">Thanks for registering your interest!</p>
           )}
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
-            {/* About */}
-            <div>
-              <h3 className="text-2xl font-bold mb-4 font-serif">MindsetOS</h3>
-              <p className="text-gray-300 leading-relaxed">
-                A human-trained, AI coaching app, designed for healthy high performance, helping individuals and teams to unlock new levels of emotional & mental fitness. 
-              </p>
-            </div>
-
-            {/* Links */}
-            <div className="flex justify-center">
-              <div className="space-y-3">
-                <Link href="/" className="block text-gray-300 hover:text-white transition-colors">
-                  Home
-                </Link>
-                <Link href="/mindset-app" className="block text-gray-300 hover:text-white transition-colors">
-                  MindsetOS App
-                </Link>
-                <Link href="/live-cohorts" className="block text-gray-300 hover:text-white transition-colors">
-                  Live Cohorts
-                </Link>
-              </div>
-            </div>
-
-            {/* Social Icons */}
-            <div className="flex justify-center md:justify-end space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                <Mail className="h-6 w-6" />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                <Linkedin className="h-6 w-6" />
-              </a>
-            </div>
-          </div>
-
-          {/* Copyright */}
-          <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 MindsetOS. All rights reserved.</p>
+      <footer className="bg-black text-white py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-sm">&copy; {new Date().getFullYear()} MindsetOS. All rights reserved.</p>
+          <div className="flex space-x-6 mt-4 md:mt-0">
+            <a href="#" className="hover:text-yellow-400">
+              <Mail className="h-5 w-5" />
+            </a>
+            <a href="#" className="hover:text-yellow-400">
+              <Linkedin className="h-5 w-5" />
+            </a>
           </div>
         </div>
       </footer>
