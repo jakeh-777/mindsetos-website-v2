@@ -37,6 +37,11 @@ export default function HowItWorksPage() {
 
   const carouselSteps = [
     {
+      title: "The MindsetOS Platform",
+      icon: <Lightbulb className="h-8 w-8 text-yellow-600" />,
+      description: "MindsetOS is a complete training environment designed to strengthen your mental and emotional fitness so you can live, lead, and perform with more clarity, energy, and purpose without burning out. It's built around the principle of Healthy High Performance, and gives you the tools, practices, and support to upgrade how you think, feel, and respond in the moments that matter most."
+    },
+    {
       title: "Mapping Your Mind",
       icon: <Compass className="h-8 w-8 text-yellow-600" />,
       description: "Your journey starts by exploring the seven mindsets: Surviving. Striving. Driving. Exploring. Thriving. Inspiring. and Flowing. Through a series of powerful self-reflection questions, you'll create a personalised map of your mind, showing where you naturally operate, where you get stuck, and where your greatest growth opportunities lie. This map becomes your foundation for targeted, practical growth."
@@ -156,26 +161,6 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      {/* Platform Overview */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <div className="bg-yellow-400 text-black rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
-              1
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-8 font-serif">The MindsetOS Platform</h2>
-            <div className="max-w-4xl mx-auto">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                MindsetOS is a complete training environment designed to strengthen your mental and emotional fitness so you can live, lead, and perform with more clarity, energy, and purpose without burning out.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                It's built around the principle of Healthy High Performance, and gives you the tools, practices, and support to upgrade how you think, feel, and respond in the moments that matter most.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Carousel Steps */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
@@ -192,7 +177,7 @@ export default function HowItWorksPage() {
                   {carouselSteps[currentStep].icon}
                 </div>
                 <div className="bg-yellow-400 text-black rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-6 text-xl font-bold">
-                  {currentStep + 2}
+                  {currentStep + 1}
                 </div>
                 <h3 className="text-3xl font-bold text-black mb-6 font-serif">
                   {carouselSteps[currentStep].title}
