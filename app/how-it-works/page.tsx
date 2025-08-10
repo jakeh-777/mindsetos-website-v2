@@ -128,85 +128,25 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      {/* 4-Step Journey */}
+      {/* Platform Overview */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Step 1 */}
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-8">
-                <div className="bg-yellow-400 text-black rounded-full w-12 h-12 flex items-center justify-center mb-6 text-xl font-bold">
-                  1
-                </div>
-                <h3 className="text-2xl font-bold text-black mb-4 font-serif">The MindsetOS Platform</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  MindsetOS is a complete training environment designed to strengthen your mental and emotional fitness so you can live, lead, and perform with more clarity, energy, and purpose without burning out.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  It's built around the principle of Healthy High Performance, and gives you the tools, practices, and support to upgrade how you think, feel, and respond in the moments that matter most.
-                </p>
-              </CardContent>
-            </Card>
-
-            {/* Step 2 */}
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-8">
-                <div className="bg-yellow-400 text-black rounded-full w-12 h-12 flex items-center justify-center mb-6 text-xl font-bold">
-                  2
-                </div>
-                <h3 className="text-2xl font-bold text-black mb-4 font-serif">Mapping Your Mind</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Your journey starts by exploring the seven mindsets: Surviving. Striving. Driving. Exploring. Thriving. Inspiring. and Flowing.
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Through a series of powerful self-reflection questions, you'll create a personalised map of your mind, showing where you naturally operate, where you get stuck, and where your greatest growth opportunities lie.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  This map becomes your foundation for targeted, practical growth.
-                </p>
-              </CardContent>
-            </Card>
-
-            {/* Step 3 */}
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-8">
-                <div className="bg-yellow-400 text-black rounded-full w-12 h-12 flex items-center justify-center mb-6 text-xl font-bold">
-                  3
-                </div>
-                <h3 className="text-2xl font-bold text-black mb-4 font-serif">Your AI-Enabled Digital Coach</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  From there, you'll interact with your AI-enabled digital coach, trained extensively by Ed Cornfield and powered by the latest in performance psychology, emotional fitness, and growth science.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  This coach adapts to you, offering tailored insights, mindset experiments, and strategies so your training is always relevant to your current challenges and aspirations.
-                </p>
-              </CardContent>
-            </Card>
-
-            {/* Step 4 */}
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-8">
-                <div className="bg-yellow-400 text-black rounded-full w-12 h-12 flex items-center justify-center mb-6 text-xl font-bold">
-                  4
-                </div>
-                <h3 className="text-2xl font-bold text-black mb-4 font-serif">Live Cohort-Based Training</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  To go deeper, you'll join live cohort-based sessions with Ed Cornfield.
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  These highly interactive, experiential trainings allow you to apply MindsetOS in real time, explore new mindsets through guided practices, and learn alongside others on the same path.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  It's a place to sharpen skills, gain perspective, and build lasting changes together.
-                </p>
-              </CardContent>
-            </Card>
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-8 font-serif">The MindsetOS Platform</h2>
+            <div className="max-w-4xl mx-auto">
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                MindsetOS is a complete training environment designed to strengthen your mental and emotional fitness so you can live, lead, and perform with more clarity, energy, and purpose without burning out.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                It's built around the principle of Healthy High Performance, and gives you the tools, practices, and support to upgrade how you think, feel, and respond in the moments that matter most.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* How It Works Steps */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-12">
             {/* Step 1 */}
@@ -215,9 +155,9 @@ export default function HowItWorksPage() {
                 <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                   <Compass className="h-8 w-8 text-yellow-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-black mb-4 font-serif">1. Map Your Mindset</h3>
+                <h3 className="text-2xl font-bold text-black mb-4 font-serif">1. Mapping Your Mind</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Complete our deep-dive evaluation to reveal your unique blend of the 7 mindsets — your starting point for growth.
+                  Your journey starts by exploring the seven mindsets: Surviving. Striving. Driving. Exploring. Thriving. Inspiring. and Flowing. Through a series of powerful self-reflection questions, you'll create a personalised map of your mind, showing where you naturally operate, where you get stuck, and where your greatest growth opportunities lie. This map becomes your foundation for targeted, practical growth.
                 </p>
               </CardContent>
             </Card>
@@ -228,9 +168,9 @@ export default function HowItWorksPage() {
                 <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                   <Brain className="h-8 w-8 text-yellow-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-black mb-4 font-serif">2. AI Coaching</h3>
+                <h3 className="text-2xl font-bold text-black mb-4 font-serif">2. Your AI-Enabled Digital Coach</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Get tailored guidance from an AI trained in expert coaching psychology, available anytime.
+                  From there, you'll interact with your AI-enabled digital coach, trained extensively by Ed Cornfield and powered by the latest in performance psychology, emotional fitness, and growth science. This coach adapts to you, offering tailored insights, mindset experiments, and strategies so your training is always relevant to your current challenges and aspirations.
                 </p>
               </CardContent>
             </Card>
@@ -241,9 +181,9 @@ export default function HowItWorksPage() {
                 <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                   <Target className="h-8 w-8 text-yellow-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-black mb-4 font-serif">3. Live Cohorts</h3>
+                <h3 className="text-2xl font-bold text-black mb-4 font-serif">3. Live Cohort-Based Training</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Learn alongside others in guided group sessions led by performance psychologists and expert coaches.
+                  To go deeper, you'll join live cohort-based sessions with Ed Cornfield. These highly interactive, experiential trainings allow you to apply MindsetOS in real time, explore new mindsets through guided practices, and learn alongside others on the same path. It's a place to sharpen skills, gain perspective, and build lasting changes together.
                 </p>
               </CardContent>
             </Card>
