@@ -119,7 +119,8 @@ export default function HomePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-2xl md:text-4xl font-bold text-black mb-6 font-serif leading-tight">
-            Your operating system for Healthy High Performance
+            Your operating system for 
+            Healthy High Performance
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-12 leading-relaxed max-w-3xl mx-auto">
             MindsetOS helps you to develop your mental and emotional fitness so you can live, lead, and perform at your
