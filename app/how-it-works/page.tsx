@@ -34,7 +34,6 @@ export default function HowItWorksPage() {
     { name: "Inspiring", color: "bg-teal-100 text-teal-800" },
     { name: "Flowing", color: "bg-sky-100 text-sky-800" },
   ]
-
   const carouselSteps = [
     {
       title: "The MindsetOS Platform",
