@@ -165,7 +165,7 @@ export default function LiveCohortsPage() {
               </div>
               <div className="flex items-center">
                 <Star className="h-4 w-4 mr-2" />
-                $297
+                ￡499
               </div>
             </div>
           </div>
