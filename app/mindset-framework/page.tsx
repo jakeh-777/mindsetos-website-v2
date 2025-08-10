@@ -420,7 +420,7 @@ export default function MindsetFrameworkPage() {
               <div className="bg-yellow-50 rounded-3xl p-8 text-center">
                 <div className="bg-white rounded-full w-48 h-48 mx-auto mb-6 flex items-center justify-center shadow-lg">
                   <img 
-                    src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" 
+                    src="/Ed .jpeg" 
                     alt="Ed Cornfield - Performance Psychologist and MindsetOS Creator"
                     className="w-44 h-44 rounded-full object-cover"
                   />
