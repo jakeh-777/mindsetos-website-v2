@@ -36,7 +36,7 @@ export default function HomePage() {
   }
 
   const mindsets = [
-    { name: "Surviving", color: "bg-pink-100 text-pink-800",},
+    { name: "Surviving", color: "bg-pink-100 text-pink-800", description: "Resilient and enduring" },
     { name: "Striving", color: "bg-red-100 text-red-800", description: "Ambitious and achieving" },
     { name: "Driving", color: "bg-orange-100 text-orange-800", description: "Focused and determined" },
     { name: "Exploring", color: "bg-yellow-100 text-yellow-800", description: "Curious and discovering" },
@@ -119,10 +119,10 @@ export default function HomePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-2xl md:text-4xl font-bold text-black mb-6 font-serif leading-tight">
-            Healthy High Performance
+            Your mind. Upgraded.
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-12 leading-relaxed max-w-3xl mx-auto">
-            MindsetOS helps you to grow your mental and emotional fitness so you can live, lead, and perform at your
+            MindsetOS helps you to develop your mental and emotional fitness so you can live, lead, and perform at your
             best.
           </p>
 
@@ -176,11 +176,11 @@ export default function HomePage() {
                 <ul className="space-y-3">
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Personalized mindset mapping
+                    Personalised mindset mapping
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    On-Demand AI coaching
+                    On-Demand, adaptive AI coaching
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
@@ -209,15 +209,15 @@ export default function HomePage() {
                 <ul className="space-y-3">
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Team mindset mapping
+                    Personalised & Team mindset mapping
+                  </li>
+                  <li className="flex items-center text-gray-700">
+                    <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
+                    On-Demand, adaptive AI coaching
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
                     2-Day transformative workshop
-                  </li>
-                  <li className="flex items-center text-gray-700">
-                    <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    MindsetOS AI-coaching
                   </li>
                 </ul>
                 <Button className="mt-6 bg-yellow-400 hover:bg-yellow-500 text-black font-medium" asChild>
