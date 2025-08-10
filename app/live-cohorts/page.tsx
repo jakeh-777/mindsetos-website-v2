@@ -38,7 +38,7 @@ export default function LiveCohortsPage() {
       sessions: "8 sessions",
       time: "Tuesdays & Thursdays, 7:00 PM GMT",
       startDate: "March 15, 2025",
-      price: "$297",
+      price: "£499",
       spots: "12 spots remaining",
       description: "Master the fundamentals of the 7 mindsets and build sustainable practices for peak performance without burnout.",
       includes: [
@@ -55,7 +55,7 @@ export default function LiveCohortsPage() {
       sessions: "12 sessions",
       time: "Mondays & Wednesdays, 6:00 PM GMT",
       startDate: "April 5, 2025",
-      price: "$497",
+      price: "£599",
       spots: "8 spots remaining",
       description: "Develop advanced leadership skills by mastering your mindset patterns and learning to guide others through transformation.",
       includes: [
@@ -165,7 +165,7 @@ export default function LiveCohortsPage() {
               </div>
               <div className="flex items-center">
                 <Star className="h-4 w-4 mr-2" />
-                ￡499
+                £499
               </div>
             </div>
           </div>
