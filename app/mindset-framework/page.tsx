@@ -390,16 +390,16 @@ export default function MindsetFrameworkPage() {
               <h3 className="text-2xl font-semibold text-black mb-4">Ed Cornfield</h3>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Performance psychologist and creator of the MindsetOS framework. With over 15 years of experience, 
-                Ed has helped thousands of individuals and teams develop sustainable high performance practices.
+                Ed has helped thousands of individuals and teams develop healthy high performance practices.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Ed's approach combines rigorous psychological research with practical coaching techniques, 
+                Ed's approach combines performance psychology research with modern, human coaching techniques, 
                 creating a framework that's both scientifically grounded and immediately applicable to real-world challenges.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  PhD in Performance Psychology
+                  Masters in Psychology
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
@@ -407,11 +407,11 @@ export default function MindsetFrameworkPage() {
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  Creator of the 7 Mindset Framework
+                  Ex-Pro Athelete & Business Executive
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  Worked with Fortune 500 companies
+                  Works with Fortune 500 companies
                 </li>
               </ul>
             </div>
@@ -428,7 +428,7 @@ export default function MindsetFrameworkPage() {
                 <blockquote className="text-lg text-gray-700 italic mb-4">
                   "The 7 mindsets aren't just theory—they're a practical roadmap for anyone seeking to perform at their best while maintaining their wellbeing."
                 </blockquote>
-                <cite className="text-black font-semibold">— Ed Cornfield, Creator of MindsetOS</cite>
+                <cite className="text-black font-semibold">— Ed Cornfield, Co-Founder of MindsetOS</cite>
               </div>
             </div>
           </div>
