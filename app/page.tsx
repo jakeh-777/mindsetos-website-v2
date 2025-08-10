@@ -307,41 +307,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* How It Works Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-black mb-8">How MindsetOS Works</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6">
-              <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Eye className="h-8 w-8 text-yellow-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-black mb-3">Map Your Inner World</h3>
-              <p className="text-gray-600">
-                Answer 12 powerful questions per mindset to understand your current patterns and growth edges.
-              </p>
-            </div>
-            <div className="p-6">
-              <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Brain className="h-8 w-8 text-yellow-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-black mb-3">Personalised Coaching</h3>
-              <p className="text-gray-600">
-                Receive human-trained, AI coaching, tailored to your mindset patterns, real-time context, and aspirations. Wherever you are, whenever you want.
-              </p>
-            </div>
-            <div className="p-6">
-              <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Lightbulb className="h-8 w-8 text-yellow-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-black mb-3">Build Mastery</h3>
-              <p className="text-gray-600">
-                Expand your mastery in every mindset and spend more time in the lighter, freer states where performance feels natural and effortless.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Final CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-yellow-50">
