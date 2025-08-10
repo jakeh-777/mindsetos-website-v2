@@ -279,11 +279,11 @@ export default function LiveCohortsPage() {
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  PhD in Performance Psychology
+                  Masters in Psychology
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  15+ years coaching experience
+                  15+ years coaching experience & ex-pro athlete
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
