@@ -75,12 +75,12 @@ export default function HomePage() {
               </Link>
             </nav>
 
-            {/* CTA Button */}
-            <div className="hidden md:block">
-              <Button className="bg-black-400 hover:bg-black-500 text-black font-medium" asChild>
-                <Link href="/join">Get Started</Link>
-              </Button>
-            </div>
+           {/* CTA Button */}
+<div className="hidden md:block">
+  <Button className="bg-black hover:bg-gray-800 text-white font-medium" asChild>
+    <Link href="/join">Get Started</Link>
+  </Button>
+</div>
 
             {/* Mobile menu button */}
             <div className="md:hidden">
