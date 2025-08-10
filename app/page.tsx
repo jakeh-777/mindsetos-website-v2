@@ -201,7 +201,7 @@ export default function HomePage() {
                   <div className="bg-yellow-100 p-3 rounded-full mr-4">
                     <Users className="h-8 w-8 text-yellow-600" />
                   </div>
-                  <h3 className="text-2xl font-bold text-black font-serif">Businesses</h3>
+                  <h3 className="text-2xl font-bold text-black font-serif">Teams</h3>
                 </div>
                 <p className="text-gray-700 text-lg mb-6 leading-relaxed">
                   For leaders committed to building a culture of high performance that lasts. MindsetOS equips your
