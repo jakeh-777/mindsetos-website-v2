@@ -245,43 +245,57 @@ export default function HowItWorksPage() {
 
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold text-black mb-6 font-serif">Human-Trained AI</h3>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Our AI coaching is trained extensively in expert coaching psychology and the MindsetOS framework. It's not generic advice — it's personalized guidance based on your unique mindset patterns.
-              </p>
+              <h3 className="text-2xl font-bold text-black mb-6 font-serif">Human Expertise, AI Scale</h3>
+              <div className="mb-6">
+                <p className="text-sm font-semibold text-gray-900 mb-2">Why it matters:</p>
+                <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+                  Most AI tools give you vague, generic advice, which quickly gets ignored. True change needs relevant, expert-driven guidance.
+                </p>
+                <p className="text-sm font-semibold text-gray-900 mb-2">How we do it:</p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Our AI coach is trained directly by expert coaches, business leaders & performance psychologists in the MindsetOS framework, so every insight is grounded in real life expertise and matched to your unique mindset profile.
+                </p>
+              </div>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  Trained by performance psychologists
+                  Built and refined by performance psychologists, expert coaches & business leaders
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  Personalized to your mindset profile
+                  Personalised to your mindset map
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  Available 24/7 wherever you are
+                  On-demand 24/7 coaching that evolves with you
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-black mb-6 font-serif">Comprehensive Framework</h3>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                The 7 mindsets provide a complete map of human performance states. Unlike single-focus approaches, MindsetOS helps you develop flexibility across all dimensions of high performance.
-              </p>
+              <h3 className="text-2xl font-bold text-black mb-6 font-serif">The Complete Map for Healthy High Performance</h3>
+              <div className="mb-6">
+                <p className="text-sm font-semibold text-gray-900 mb-2">Why it matters:</p>
+                <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+                  Single-focus training leaves blind spots that lead to burnout or plateaus. Healthy high performance demands a human approach that encompasses all aspects of your life.
+                </p>
+                <p className="text-sm font-semibold text-gray-900 mb-2">How we do it:</p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  The 7 Mindsets give you a complete map of human mindset states helping you move fluidly from challenge to creativity to peak flow. You'll build the skills to perform at your best without sacrificing your health or happiness.
+                </p>
+              </div>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  Evidence-based framework
+                  Human-based framework for lasting growth
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  Covers all performance dimensions
+                  Develops flexibility across all mindset dimensions
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  Sustainable and healthy approach
+                  Sustainable, healthy approach that prevents burnout
                 </li>
               </ul>
             </div>
