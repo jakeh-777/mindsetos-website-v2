@@ -77,7 +77,7 @@ export default function HomePage() {
 
             {/* CTA Button */}
             <div className="hidden md:block">
-              <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium" asChild>
+              <Button className="bg-black-400 hover:bg-black-500 text-white font-medium" asChild>
                 <Link href="/join">Get Started</Link>
               </Button>
             </div>
