@@ -90,13 +90,13 @@ export default function HowItWorksPage() {
                   How It Works
                 </Link>
                 <Link href="/for-teams" className="text-gray-900 hover:text-gray-600 transition-colors">
-                  For Teams
+                  For Businesses
                 </Link>
                 <Link href="/mindset-framework" className="text-gray-900 hover:text-gray-600 transition-colors">
-                  7 Mindset Framework
+                  The MindsetOS Platform
                 </Link>
                 <Link href="/join" className="text-gray-900 hover:text-gray-600 transition-colors">
-                  Join Us
+                  Start your Journey
                 </Link>
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function HowItWorksPage() {
             How MindsetOS Works
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-12 leading-relaxed max-w-3xl mx-auto">
-            A journey designed to grow your mental and emotional fitness — blending personalized insights, AI coaching, and live group learning.
+            A journey designed to grow your mental and emotional fitness, blending personalised insights, AI coaching, and live group learning.
           </p>
 
           {/* Mindset Chips */}
