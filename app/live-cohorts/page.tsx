@@ -34,7 +34,7 @@ export default function LiveCohortsPage() {
   const cohorts = [
     {
       title: "Foundations of Healthy High Performance",
-      duration: "4 weeks",
+      duration: "6 weeks",
       sessions: "8 sessions",
       time: "Tuesdays & Thursdays, 7:00 PM GMT",
       startDate: "March 15, 2025",
@@ -51,19 +51,19 @@ export default function LiveCohortsPage() {
     },
     {
       title: "Leadership Through Mindset Mastery",
-      duration: "6 weeks",
-      sessions: "12 sessions",
-      time: "Mondays & Wednesdays, 6:00 PM GMT",
+      duration: "9 weeks",
+      sessions: "9 sessions",
+      time: "Wednesdays, 6:00 PM GMT",
       startDate: "April 5, 2025",
       price: "£599",
       spots: "8 spots remaining",
       description: "Develop advanced leadership skills by mastering your mindset patterns and learning to guide others through transformation.",
       includes: [
         "Advanced leadership frameworks",
-        "1:1 coaching session with Ed",
-        "Leadership assessment & feedback",
+        "Personalised mindset assessment",
+        "Weekly practice assignments",
         "Peer coaching practice",
-        "Lifetime community access",
+        "Cohort commuinity access",
       ],
     },
   ]
