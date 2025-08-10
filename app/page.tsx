@@ -42,12 +42,12 @@ export default function HomePage() {
 
   const mindsets = [
     { name: "Surviving", color: "bg-pink-100 text-pink-800", icon: <Shield className="h-8 w-8" />, description: "Resilient and enduring" },
-    { name: "Striving", color: "bg-red-100 text-red-800", icon: <Target className="h-8 w-8" />, description: "Ambitious and achieving" },
-    { name: "Driving", color: "bg-orange-100 text-orange-800", icon: <Zap className="h-8 w-8" />, description: "Focused and determined" },
-    { name: "Exploring", color: "bg-yellow-100 text-yellow-800", icon: <Compass className="h-8 w-8" />, description: "Curious and discovering" },
-    { name: "Thriving", color: "bg-green-100 text-green-800", icon: <Leaf className="h-8 w-8" />, description: "Flourishing and growing" },
-    { name: "Inspiring", color: "bg-teal-100 text-teal-800", icon: <Sparkles className="h-8 w-8" />, description: "Visionary and motivating" },
-    { name: "Flowing", color: "bg-sky-100 text-sky-800", icon: <Waves className="h-8 w-8" />, description: "Adaptable and present" },
+    { name: "Striving", color: "bg-red-100 text-red-800", description: "Ambitious and achieving" },
+    { name: "Driving", color: "bg-orange-100 text-orange-800", description: "Focused and determined" },
+    { name: "Exploring", color: "bg-yellow-100 text-yellow-800", description: "Curious and discovering" },
+    { name: "Thriving", color: "bg-green-100 text-green-800", description: "Flourishing and growing" },
+    { name: "Inspiring", color: "bg-teal-100 text-teal-800", description: "Visionary and motivating" },
+    { name: "Flowing", color: "bg-sky-100 text-sky-800", description: "Adaptable and present" },
   ]
 
   return (
@@ -136,7 +136,7 @@ export default function HomePage() {
           <div className="flex justify-center mb-12">
             <Button
               size="lg"
-              className="bg-black:bg-grey-800 text-white font-medium px-8 py-4 text-lg rounded-full"
+              className="bg-black hover:bg-gray-800 text-white font-medium px-8 py-4 text-lg rounded-full"
               asChild
             >
               <Link href="/how-it-works">
@@ -277,7 +277,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold text-black mb-4 font-serif">Live Cohorts</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Growth is more powerful when it’s shared. Join guided experiences led by performance psychologist and expert coach Ed Cornfield to go deeper, apply your mindset in real life, and connect with others on the same journey.
+                  Growth is more powerful when it's shared. Join guided experiences led by performance psychologist and expert coach Ed Cornfield to go deeper, apply your mindset in real life, and connect with others on the same journey.
                 </p>
                 <Link href="/how-it-works" className="inline-block mt-4 text-yellow-600 font-semibold">
                   Learn More →
@@ -302,7 +302,7 @@ export default function HomePage() {
                 <div
                   className={`${mindset.color} p-4 rounded-2xl mb-3 transition-all group-hover:scale-105 group-hover:shadow-lg`}
                 >
-                  <div className="flex justify-center">{mindset.icon}</div>
+                  <Circle className="h-8 w-8 mx-auto" />
                 </div>
                 <h4 className="font-semibold text-black mb-1">{mindset.name}</h4>
                 <p className="text-sm text-gray-600">{mindset.description}</p>
