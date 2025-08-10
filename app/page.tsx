@@ -131,7 +131,7 @@ export default function HomePage() {
           <div className="flex justify-center mb-12">
             <Button
               size="lg"
-              className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium px-8 py-4 text-lg rounded-full"
+              className="bg-black:bg-grey-800 text-white font-medium px-8 py-4 text-lg rounded-full"
               asChild
             >
               <Link href="/how-it-works">
