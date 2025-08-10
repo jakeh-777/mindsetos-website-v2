@@ -43,7 +43,7 @@ export default function LiveCohortsPage() {
       description: "Master the fundamentals of the 7 mindsets and build sustainable practices for peak performance without burnout.",
       includes: [
         "Live group coaching sessions",
-        "Personalized mindset assessment",
+        "Personalised mindset assessment",
         "Weekly practice assignments",
         "Private community access",
         "Session recordings",
