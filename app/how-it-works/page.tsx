@@ -140,7 +140,7 @@ export default function HowItWorksPage() {
                 </div>
                 <h3 className="text-2xl font-bold text-black mb-4 font-serif">1. Map Your Mindset</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Complete our deep-dive diagnostic to reveal your unique blend of the 7 mindsets — your starting point for growth.
+                  Complete our deep-dive evaluation to reveal your unique blend of the 7 mindsets — your starting point for growth.
                 </p>
               </CardContent>
             </Card>
