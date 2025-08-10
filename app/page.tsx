@@ -70,13 +70,10 @@ export default function HomePage() {
                 How It Works
               </Link>
               <Link href="/for-teams" className="text-gray-900 hover:text-gray-600 transition-colors">
-                For Teams
+                Live Cohorts
               </Link>
               <Link href="/mindset-framework" className="text-gray-900 hover:text-gray-600 transition-colors">
                 7 Mindset Framework
-              </Link>
-              <Link href="/join" className="text-gray-900 hover:text-gray-600 transition-colors">
-                Join Us
               </Link>
             </nav>
 
