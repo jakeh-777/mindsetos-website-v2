@@ -306,7 +306,7 @@ Join guided experiences led by performance psychologist and expert coach Ed Corn
               </div>
               <h3 className="text-xl font-semibold text-black mb-3">Personalised Coaching</h3>
               <p className="text-gray-600">
-                Receive human-trained, AI coaching, tailored to your mindset patterns, real-time context, and aspirations. Wherever you are, whenever you want.
+                Receive human-trained, AI coaching tailored to your mindset patterns, real-time context, and aspirations. Wherever you are, whenever you want.
               </p>
             </div>
             <div className="p-6">

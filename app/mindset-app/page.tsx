@@ -43,7 +43,7 @@ export default function MindsetAppPage() {
     {
       icon: <Brain className="h-8 w-8" />,
       title: "AI Coaching",
-      description: "Get personalized coaching powered by human-trained AI, available 24/7 wherever you are.",
+      description: "Get personalised coaching powered by human-trained AI, available 24/7 wherever you are.",
     },
     {
       icon: <BarChart3 className="h-8 w-8" />,
@@ -117,7 +117,7 @@ export default function MindsetAppPage() {
                 Mindset Coach
               </h1>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-                The MindsetOS app puts the power of human-trained AI coaching in your pocket. Discover your mindset patterns, receive personalized guidance, and build sustainable practices for healthy high performance.
+                The MindsetOS app puts the power of human-trained AI coaching in your pocket. Discover your mindset patterns, receive personalised guidance, and build sustainable practices for healthy high performance.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -304,7 +304,7 @@ export default function MindsetAppPage() {
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Daily personalized insights
+                    Daily personalised insights
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
