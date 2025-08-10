@@ -36,7 +36,7 @@ export default function MindsetFrameworkPage() {
       name: "Surviving",
       color: "bg-pink-100 text-pink-800 border-pink-200",
       icon: <Shield className="h-8 w-8" />,
-      description: "Resilient and enduring through challenges",
+      description: "Life's hard sometimes. That doesn't make you weak — it makes you human. What matters is how you meet those moments.",
       fullDescription: "The Surviving mindset is about resilience, endurance, and getting through difficult times. When in this mindset, you focus on basic needs, safety, and stability. It's essential for navigating crises but shouldn't be your permanent state.",
       characteristics: [
         "Focus on immediate needs and safety",
@@ -57,7 +57,7 @@ export default function MindsetFrameworkPage() {
       name: "Striving",
       color: "bg-red-100 text-red-800 border-red-200",
       icon: <Target className="h-8 w-8" />,
-      description: "Ambitious and achievement-focused",
+      description: "You're progressing and that matters. You're enough and growing. Success is not your worth. You're invested in the process.",
       fullDescription: "The Striving mindset is characterized by ambition, goal-setting, and a strong drive to achieve. You're focused on improvement, competition, and reaching the next level. This mindset fuels progress but can lead to burnout if overused.",
       characteristics: [
         "Strong goal orientation",
@@ -78,7 +78,7 @@ export default function MindsetFrameworkPage() {
       name: "Driving",
       color: "bg-orange-100 text-orange-800 border-orange-200",
       icon: <Zap className="h-8 w-8" />,
-      description: "Focused and determined execution",
+      description: "You're in momentum. Celebrate that. But don't hold too tight. Let it go a bit and make sure it's sustainable.",
       fullDescription: "The Driving mindset is about focused execution, determination, and pushing through obstacles. You're in action mode, making things happen with intensity and purpose. It's powerful for getting things done but requires balance.",
       characteristics: [
         "Intense focus and concentration",
@@ -99,7 +99,7 @@ export default function MindsetFrameworkPage() {
       name: "Exploring",
       color: "bg-yellow-100 text-yellow-800 border-yellow-200",
       icon: <Compass className="h-8 w-8" />,
-      description: "Curious and discovery-oriented",
+      description: "Growth lives in uncertainty. Bring curiosity and courage. Experiment. You don't need all the answers to begin.",
       fullDescription: "The Exploring mindset is driven by curiosity, learning, and discovery. You're open to new experiences, asking questions, and seeking to understand. This mindset fuels innovation and growth through experimentation.",
       characteristics: [
         "High curiosity and openness",
@@ -120,7 +120,7 @@ export default function MindsetFrameworkPage() {
       name: "Thriving",
       color: "bg-green-100 text-green-800 border-green-200",
       icon: <Leaf className="h-8 w-8" />,
-      description: "Flourishing and growing sustainably",
+      description: "You're in your groove. Energised. Aligned. There's joy in the doing — not just the outcome.",
       fullDescription: "The Thriving mindset represents sustainable growth, wellbeing, and flourishing. You're operating from a place of abundance, focusing on long-term development and holistic success. This is often considered the optimal state for sustained high performance.",
       characteristics: [
         "Sustainable growth orientation",
@@ -141,7 +141,7 @@ export default function MindsetFrameworkPage() {
       name: "Inspiring",
       color: "bg-teal-100 text-teal-800 border-teal-200",
       icon: <Sparkles className="h-8 w-8" />,
-      description: "Visionary and motivating others",
+      description: "You lead with clarity. You inspire with purpose. You create with others. You're moved — and moving others.",
       fullDescription: "The Inspiring mindset is about vision, purpose, and motivating others toward a greater cause. You're focused on meaning, impact, and bringing out the best in people. This mindset creates positive change and builds movements.",
       characteristics: [
         "Clear vision and purpose",
@@ -162,7 +162,7 @@ export default function MindsetFrameworkPage() {
       name: "Flowing",
       color: "bg-sky-100 text-sky-800 border-sky-200",
       icon: <Waves className="h-8 w-8" />,
-      description: "Adaptable and present in the moment",
+      description: "There's no forcing. Just being. You're fully here, guided by quiet wisdom. You flow — and life flows with you.",
       fullDescription: "The Flowing mindset is characterized by adaptability, presence, and effortless performance. You're in sync with the moment, responding naturally to what's needed. This state often represents peak performance and deep satisfaction.",
       characteristics: [
         "High adaptability and flexibility",
