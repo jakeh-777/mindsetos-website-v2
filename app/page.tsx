@@ -108,6 +108,7 @@ export default function HomePage() {
                 <Link href="/mindset-framework" className="text-gray-900 hover:text-gray-600 transition-colors">
                   7 Mindset Framework
                 </Link>
+              </div>
             </div>
           )}
         </div>
