@@ -41,7 +41,7 @@ export default function HomePage() {
   }
 
   const mindsets = [
-    { name: "Surviving", color: "bg-pink-100 text-pink-800", icon: <Shield className="h-8 w-8" />, description: "Resilient and enduring" },
+    { name: "Surviving", color: "bg-pink-100 text-pink-800", description: "Resilient and enduring" },
     { name: "Striving", color: "bg-red-100 text-red-800", description: "Ambitious and achieving" },
     { name: "Driving", color: "bg-orange-100 text-orange-800", description: "Focused and determined" },
     { name: "Exploring", color: "bg-yellow-100 text-yellow-800", description: "Curious and discovering" },
