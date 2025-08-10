@@ -69,7 +69,7 @@ export default function HomePage() {
               <Link href="/how-it-works" className="text-gray-900 hover:text-gray-600 transition-colors">
                 How It Works
               </Link>
-              <Link href="/for-teams" className="text-gray-900 hover:text-gray-600 transition-colors">
+              <Link href="/live-cohorts" className="text-gray-900 hover:text-gray-600 transition-colors">
                 Live Cohorts
               </Link>
               <Link href="/mindset-framework" className="text-gray-900 hover:text-gray-600 transition-colors">
@@ -102,16 +102,12 @@ export default function HomePage() {
                 <Link href="/how-it-works" className="text-gray-900 hover:text-gray-600 transition-colors">
                   How It Works
                 </Link>
-                <Link href="/for-teams" className="text-gray-900 hover:text-gray-600 transition-colors">
-                  For Teams
+                <Link href="/live-cohorts" className="text-gray-900 hover:text-gray-600 transition-colors">
+                  Live Cohorts
                 </Link>
                 <Link href="/mindset-framework" className="text-gray-900 hover:text-gray-600 transition-colors">
                   7 Mindset Framework
                 </Link>
-                <Link href="/join" className="text-gray-900 hover:text-gray-600 transition-colors">
-                  Join Us
-                </Link>
-              </div>
             </div>
           )}
         </div>
