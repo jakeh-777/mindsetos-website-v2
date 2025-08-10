@@ -123,7 +123,7 @@ export default function HomePage() {
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-12 leading-relaxed max-w-3xl mx-auto">
             MindsetOS helps you to develop your mental and emotional fitness so you can live, lead, and perform at your
-            best.
+            best. Our north star is Healthy High Performance: achieving more with clarity, creativity, and connection, without burning out.
           </p>
 
           {/* CTA Buttons */}
@@ -171,7 +171,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-gray-700 text-lg mb-6 leading-relaxed">
                   For people ready to take ownership of their self-development. Whether your motivation is professional
-                  or personal, MindsetOS meets you where you are — and helps you build sustainable ways to thrive.
+                  or personal, MindsetOS meets you where you are and helps you build healthier ways to thrive.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center text-gray-700">
@@ -184,7 +184,7 @@ export default function HomePage() {
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Virtual & Live cohorts
+                    Live Cohorts to grow with others
                   </li>
                 </ul>
                 <Button className="mt-6 bg-yellow-400 hover:bg-yellow-500 text-black font-medium" asChild>
@@ -203,13 +203,13 @@ export default function HomePage() {
                   <h3 className="text-2xl font-bold text-black font-serif">Businesses</h3>
                 </div>
                 <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                  For leaders committed to building a culture of sustainable high performance. MindsetOS equips your
+                  For leaders committed to building a culture of high performance that lasts. MindsetOS equips your
                   team with the mindset tools to navigate challenge, lead with clarity, and perform without burnout.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Personalised & Team mindset mapping
+                    Invidividual & Team mindset mapping
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
@@ -335,7 +335,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-semibold text-black mb-3">Build Mastery</h3>
               <p className="text-gray-600">
-                Expand your mastery within each mindset and spend more time in the lighter, freer states.
+                Expand your mastery in every mindset and spend more time in the lighter, freer states where performance feels natural and effortless.
               </p>
             </div>
           </div>
