@@ -14,6 +14,8 @@ import {
   Lightbulb,
   Menu,
   X,
+  ChevronLeft,
+  ChevronRight,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -21,6 +23,7 @@ import Link from "next/link"
 
 export default function HowItWorksPage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [currentStep, setCurrentStep] = useState(0)
 
   const mindsets = [
     { name: "Surviving", color: "bg-pink-100 text-pink-800" },
@@ -32,6 +35,31 @@ export default function HowItWorksPage() {
     { name: "Flowing", color: "bg-sky-100 text-sky-800" },
   ]
 
+  const carouselSteps = [
+    {
+      title: "Mapping Your Mind",
+      icon: <Compass className="h-8 w-8 text-yellow-600" />,
+      description: "Your journey starts by exploring the seven mindsets: Surviving. Striving. Driving. Exploring. Thriving. Inspiring. and Flowing. Through a series of powerful self-reflection questions, you'll create a personalised map of your mind, showing where you naturally operate, where you get stuck, and where your greatest growth opportunities lie. This map becomes your foundation for targeted, practical growth."
+    },
+    {
+      title: "Your AI-Enabled Digital Coach",
+      icon: <Brain className="h-8 w-8 text-yellow-600" />,
+      description: "From there, you'll interact with your AI-enabled digital coach, trained extensively by Ed Cornfield and powered by the latest in performance psychology, emotional fitness, and growth science. This coach adapts to you, offering tailored insights, mindset experiments, and strategies so your training is always relevant to your current challenges and aspirations."
+    },
+    {
+      title: "Live Cohort-Based Training",
+      icon: <Target className="h-8 w-8 text-yellow-600" />,
+      description: "To go deeper, you'll join live cohort-based sessions with Ed Cornfield. These highly interactive, experiential trainings allow you to apply MindsetOS in real time, explore new mindsets through guided practices, and learn alongside others on the same path. It's a place to sharpen skills, gain perspective, and build lasting changes together."
+    }
+  ]
+
+  const nextStep = () => {
+    setCurrentStep((prev) => (prev + 1) % carouselSteps.length)
+  }
+
+  const prevStep = () => {
+    setCurrentStep((prev) => (prev - 1 + carouselSteps.length) % carouselSteps.length)
+  }
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -132,6 +160,9 @@ export default function HowItWorksPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
+            <div className="bg-yellow-400 text-black rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+              1
+            </div>
             <h2 className="text-3xl md:text-4xl font-bold text-black mb-8 font-serif">The MindsetOS Platform</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
@@ -145,48 +176,63 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      {/* How It Works Steps */}
+      {/* Carousel Steps */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-12">
-            {/* Step 1 */}
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-8 text-center">
-                <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                  <Compass className="h-8 w-8 text-yellow-600" />
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4 font-serif">Your Journey</h2>
+            <p className="text-lg text-gray-600">Discover how MindsetOS guides you through transformation</p>
+          </div>
+
+          {/* Carousel Container */}
+          <div className="relative max-w-4xl mx-auto">
+            <Card className="border-0 shadow-xl">
+              <CardContent className="p-12 text-center">
+                <div className="bg-yellow-100 p-4 rounded-full w-20 h-20 mx-auto mb-8 flex items-center justify-center">
+                  {carouselSteps[currentStep].icon}
                 </div>
-                <h3 className="text-2xl font-bold text-black mb-4 font-serif">1. Mapping Your Mind</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Your journey starts by exploring the seven mindsets: Surviving. Striving. Driving. Exploring. Thriving. Inspiring. and Flowing. Through a series of powerful self-reflection questions, you'll create a personalised map of your mind, showing where you naturally operate, where you get stuck, and where your greatest growth opportunities lie. This map becomes your foundation for targeted, practical growth.
+                <div className="bg-yellow-400 text-black rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-6 text-xl font-bold">
+                  {currentStep + 2}
+                </div>
+                <h3 className="text-3xl font-bold text-black mb-6 font-serif">
+                  {carouselSteps[currentStep].title}
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+                  {carouselSteps[currentStep].description}
                 </p>
               </CardContent>
             </Card>
 
-            {/* Step 2 */}
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-8 text-center">
-                <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                  <Brain className="h-8 w-8 text-yellow-600" />
-                </div>
-                <h3 className="text-2xl font-bold text-black mb-4 font-serif">2. Your AI-Enabled Digital Coach</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  From there, you'll interact with your AI-enabled digital coach, trained extensively by Ed Cornfield and powered by the latest in performance psychology, emotional fitness, and growth science. This coach adapts to you, offering tailored insights, mindset experiments, and strategies so your training is always relevant to your current challenges and aspirations.
-                </p>
-              </CardContent>
-            </Card>
+            {/* Navigation Buttons */}
+            <Button
+              variant="outline"
+              size="icon"
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 rounded-full bg-white shadow-lg hover:bg-gray-50"
+              onClick={prevStep}
+            >
+              <ChevronLeft className="h-6 w-6" />
+            </Button>
+            <Button
+              variant="outline"
+              size="icon"
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 rounded-full bg-white shadow-lg hover:bg-gray-50"
+              onClick={nextStep}
+            >
+              <ChevronRight className="h-6 w-6" />
+            </Button>
+          </div>
 
-            {/* Step 3 */}
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-8 text-center">
-                <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                  <Target className="h-8 w-8 text-yellow-600" />
-                </div>
-                <h3 className="text-2xl font-bold text-black mb-4 font-serif">3. Live Cohort-Based Training</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  To go deeper, you'll join live cohort-based sessions with Ed Cornfield. These highly interactive, experiential trainings allow you to apply MindsetOS in real time, explore new mindsets through guided practices, and learn alongside others on the same path. It's a place to sharpen skills, gain perspective, and build lasting changes together.
-                </p>
-              </CardContent>
-            </Card>
+          {/* Step Indicators */}
+          <div className="flex justify-center mt-8 space-x-2">
+            {carouselSteps.map((_, index) => (
+              <button
+                key={index}
+                className={`w-3 h-3 rounded-full transition-all ${
+                  currentStep === index ? 'bg-yellow-400' : 'bg-gray-300 hover:bg-gray-400'
+                }`}
+                onClick={() => setCurrentStep(index)}
+              />
+            ))}
           </div>
 
           {/* CTA */}
