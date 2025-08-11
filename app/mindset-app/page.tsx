@@ -152,7 +152,7 @@ export default function MindsetAppPage() {
 
             <div className="relative">
               <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-sm mx-auto">
-                <div className="bg-yellow-100 rounded-2xl p-6 mb-6">
+                <div className="bg-green-200 rounded-2xl p-6 mb-6">
                   <Brain className="h-12 w-12 text-yellow-600 mx-auto mb-4" />
                   <h3 className="text-lg font-semibold text-center mb-2">Today's Insight</h3>
                   <p className="text-gray-600 text-center text-sm">
