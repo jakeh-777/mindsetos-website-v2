@@ -252,7 +252,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold text-black mb-4 font-serif">Build Mastery</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Expand your mastery within each mindset and spend more time in the lighter, freer states. Growth is more powerful when it's shared - join guided experiences led by expert coach Ed Cornfield to go deeper and connect with others on the same journey.
+                  Expand your mastery within each mindset and spend more time in the lighter, freer states. Growth is more powerful when it's shared so join a live cohort led by expert coach Ed Cornfield to go deeper and connect with others on the same journey.
                 </p>
               </CardContent>
             </Card>
