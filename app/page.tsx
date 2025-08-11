@@ -108,7 +108,7 @@ export default function HomePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-2xl md:text-4xl font-bold text-black mb-6 font-serif leading-tight">
-            Healthy High Performance
+           The Operating System for Healthy High Performance
             <br />
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-12 leading-relaxed max-w-3xl mx-auto">
