@@ -372,7 +372,6 @@ export default function LiveCohortsPage() {
                 </li>
               </ul>
             </div>
-
             <div className="relative">
               <div className="bg-yellow-100 rounded-3xl p-8 text-center">
               <div className="relative w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden ring-2 ring-white shadow">
