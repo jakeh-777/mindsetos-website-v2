@@ -448,7 +448,7 @@ export default function LiveCohortsPage() {
             Your 9-Week Foundation Journey
           </h3>
           <p className="text-lg text-gray-700 text-center mb-12 max-w-3xl mx-auto">
-            Each week, we explore one mindset together — understanding both its wisdom and its shadows. 
+            Each week, we explore one mindset together, understanding both its wisdom and its shadows. 
             This isn't about reaching the "best" mindset, but building awareness and choice in how you respond to life.
           </p>
 
