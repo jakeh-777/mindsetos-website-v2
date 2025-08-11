@@ -374,8 +374,16 @@ export default function LiveCohortsPage() {
 
             <div className="relative">
               <div className="bg-yellow-100 rounded-3xl p-8 text-center">
-                <div className="bg-white rounded-full w-32 h-32 mx-auto mb-6 flex items-center justify-center">
-                  <User className="h-16 w-16 text-gray-400" />
+              <div className="relative w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden ring-2 ring-white shadow">
+            <Image
+              src="/images/ed-cornfield.jpg"
+              alt="Ed Cornfield headshot"
+              fill
+              sizes="160px"
+              className="object-cover"
+              priority
+            />
+          </div>
                 </div>
                 <blockquote className="text-lg text-gray-700 italic mb-4">
                   "True high performance isn't about pushing harder—it's about understanding your mindset patterns and learning to work with them, not against them."
