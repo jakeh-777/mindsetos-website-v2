@@ -25,6 +25,82 @@ export default function LiveCohortsPage() {
   const [email, setEmail] = useState("")
   const [isSubmitted, setIsSubmitted] = useState(false)
 
+  // 9-week journey data
+  const weeks = [
+    {
+      title: "Introduction",
+      week: "Week 1",
+      blurb: "Welcome to MindsetOS. Understanding the framework, setting intentions, and building connections with your cohort members.",
+      kickerLabel: "Foundation:",
+      kickerText: "Creating psychological safety and shared commitment",
+      bg: "bg-stone-100",
+    },
+    {
+      title: "Surviving",
+      week: "Week 2",
+      blurb: "Learning to move through challenge and stress with grounded presence rather than being overwhelmed by difficult emotions.",
+      kickerLabel: "Key insight:",
+      kickerText: "Recognizing survival signals without letting them run the show",
+      bg: "bg-rose-200",
+    },
+    {
+      title: "Striving",
+      week: "Week 3",
+      blurb: "Transforming the hustle mindset — harnessing drive without burnout, performing from enough-ness rather than chasing validation.",
+      kickerLabel: "Key insight:",
+      kickerText: "Setting goals with intention, not from fear of falling behind",
+      bg: "bg-pink-200",
+    },
+    {
+      title: "Driving",
+      week: "Week 4",
+      blurb: "Leading with clarity and focus while staying connected to others — channeling inner power without needing to prove outer power.",
+      kickerLabel: "Key insight:",
+      kickerText: "Taking action with empowerment, guided by purpose",
+      bg: "bg-amber-200",
+    },
+    {
+      title: "Exploring",
+      week: "Week 5",
+      blurb: "Embracing curiosity and not‑knowing — dropping the need to be right and asking better questions to open new possibilities.",
+      kickerLabel: "Key insight:",
+      kickerText: "Experimenting as the path to who you could become",
+      bg: "bg-yellow-200",
+    },
+    {
+      title: "Thriving",
+      week: "Week 6",
+      blurb: "Living with energy, alignment, and sustainable performance — being fully yourself while creating supportive habits and relationships.",
+      kickerLabel: "Key insight:",
+      kickerText: "Authentic expression of your talents with ongoing care",
+      bg: "bg-green-200",
+    },
+    {
+      title: "Inspiring",
+      week: "Week 7",
+      blurb: "Uplifting others through your presence — leading by example and connecting people to something bigger than themselves.",
+      kickerLabel: "Key insight:",
+      kickerText: "Becoming a catalyst for change, grounded in integrity",
+      bg: "bg-teal-200",
+    },
+    {
+      title: "Flowing",
+      week: "Week 8",
+      blurb: "The art of letting go — trusting the process and moving with life's natural rhythm while staying present and engaged.",
+      kickerLabel: "Key insight:",
+      kickerText: "Embracing what is, dancing with uncertainty",
+      bg: "bg-sky-200",
+    },
+    {
+      title: "Integration",
+      week: "Week 9",
+      blurb: "Weaving it all together. Creating your personal MindsetOS practice, building ongoing accountability partnerships, and celebrating your growth.",
+      kickerLabel: "Commitment:",
+      kickerText: "Sustaining transformation beyond the cohort",
+      bg: "bg-yellow-100",
+    },
+  ]
+
   const handleEmailSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitted(true)
@@ -358,6 +434,49 @@ export default function LiveCohortsPage() {
                 Practice new skills, get feedback, and build lasting mindset mastery.
               </p>
             </div>
+          </div>
+        </div>
+
+        {/* 9-Week Foundation Journey */}
+        <div className="mt-20">
+          <h3 className="text-2xl md:text-3xl font-bold text-center text-black mb-8 font-serif">
+            Your 9-Week Foundation Journey
+          </h3>
+          <p className="text-lg text-gray-700 text-center mb-12 max-w-3xl mx-auto">
+            Each week, we explore one mindset together — understanding both its wisdom and its shadows. 
+            This isn't about reaching the "best" mindset, but building awareness and choice in how you respond to life.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {weeks.map((week) => (
+              <div key={week.title} className={`rounded-xl ${week.bg} p-5 shadow-sm border border-black/5`}>
+                <div className="flex items-start justify-between">
+                  <h4 className="text-lg font-semibold text-black">{week.title}</h4>
+                  <span className="text-xs font-medium rounded-full bg-white/70 px-2 py-1 border border-black/10">
+                    {week.week}
+                  </span>
+                </div>
+                <p className="mt-2 text-sm leading-6 text-gray-800">{week.blurb}</p>
+                <p className="mt-3 text-xs font-medium text-gray-900">
+                  <span className="mr-1">{week.kickerLabel}</span>
+                  <span className="font-normal text-gray-800">{week.kickerText}</span>
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-12 rounded-2xl bg-amber-50 p-6 sm:p-8 border border-amber-100 text-center">
+            <h4 className="text-lg sm:text-xl font-semibold text-black mb-3">
+              A Journey of Awareness, Not Perfection
+            </h4>
+            <p className="text-sm sm:text-base text-gray-700 max-w-3xl mx-auto mb-6">
+              Each mindset has both wisdom and shadows. We all move between healthy and unhealthy versions of these mindsets. 
+              The power lies in building awareness so you can respond more consciously and choose more intentionally.
+            </p>
+            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium px-6 py-3 rounded-full">
+              Begin Your 9-Week Journey
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
           </div>
         </div>
       </section>
