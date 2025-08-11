@@ -390,10 +390,8 @@ export default function LiveCohortsPage() {
                 </blockquote>
                 <cite className="text-black font-semibold">— Ed Cornfield</cite>
               </div>
-              </div>
             </div>
           </div>
-        </div>
       </section>
 
       {/* How It Works */}
