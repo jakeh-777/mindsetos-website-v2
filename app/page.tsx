@@ -210,15 +210,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* What MindsetOS Offers */}
+      {/* What MindsetOS Offers & How It Works */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-16 font-serif">
-            What MindsetOS Offers
+            How MindsetOS Works
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Explore - Mindset Mapping */}
+            {/* Discover - Mindset Mapping */}
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-8 text-center">
                 <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
@@ -226,12 +226,12 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold text-black mb-4 font-serif">Discover</h3>
                 <p className="text-gray-700 leading-relaxed">
-                 Every mindset map tells a story. Explore your unique combination of the 7 mindsets and develop the clarity and awareness needed for lasting growth.
+                  Map your inner world by answering 12 powerful questions per mindset. Every mindset map tells a story - explore your unique combination of the 7 mindsets and develop the clarity and awareness needed for lasting growth.
                 </p>
               </CardContent>
             </Card>
 
-            {/* Discover - AI Coaching */}
+            {/* Explore - AI Coaching */}
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-8 text-center">
                 <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
@@ -239,22 +239,20 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold text-black mb-4 font-serif">Explore</h3>
                 <p className="text-gray-700 leading-relaxed">
-        Move from self-awareness to self-development.
-Guided by AI, trained extensively in expert coaching psychology and the MindsetOS framework, you'll receive tailored reflections that reveal what healthy high performance means for you.
+                  Move from self-awareness to self-development. Receive personalised coaching powered by human-trained AI, tailored to your mindset patterns, real-time context, and aspirations. Available wherever you are, whenever you want.
                 </p>
               </CardContent>
             </Card>
 
-            {/* Live Cohorts */}
+            {/* Build Mastery - Live Cohorts */}
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-8 text-center">
                 <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                  <Target className="h-8 w-8 text-black-600" />
+                  <Lightbulb className="h-8 w-8 text-black-600" />
                 </div>
-                <h3 className="text-xl font-bold text-black mb-4 font-serif">Live Cohorts</h3>
+                <h3 className="text-xl font-bold text-black mb-4 font-serif">Build Mastery</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Growth is more powerful when it’s shared.
-Join guided experiences led by performance psychologist and expert coach Ed Cornfield to go deeper, apply your mindset in real life, and connect with others on the same journey.
+                  Expand your mastery within each mindset and spend more time in the lighter, freer states. Growth is more powerful when it's shared - join guided experiences led by expert coach Ed Cornfield to go deeper and connect with others on the same journey.
                 </p>
               </CardContent>
             </Card>
@@ -282,42 +280,6 @@ Join guided experiences led by performance psychologist and expert coach Ed Corn
                 <p className="text-sm text-gray-600">{mindset.description}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* How It Works Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-black mb-8">How MindsetOS Works</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6">
-              <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Eye className="h-8 w-8 text-yellow-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-black mb-3">Map Your Inner World</h3>
-              <p className="text-gray-600">
-                Answer 12 powerful questions per mindset to understand your current patterns and growth edges.
-              </p>
-            </div>
-            <div className="p-6">
-              <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Brain className="h-8 w-8 text-yellow-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-black mb-3">Personalised Coaching</h3>
-              <p className="text-gray-600">
-                Receive human-trained, AI coaching tailored to your mindset patterns, real-time context, and aspirations. Wherever you are, whenever you want.
-              </p>
-            </div>
-            <div className="p-6">
-              <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Lightbulb className="h-8 w-8 text-yellow-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-black mb-3">Build Mastery</h3>
-              <p className="text-gray-600">
-                Expand your mastery within each mindset and spend more time in the lighter, freer states.
-              </p>
-            </div>
           </div>
         </div>
       </section>
