@@ -385,11 +385,11 @@ export default function LiveCohortsPage() {
               priority
             />
           </div>
-                </div>
                 <blockquote className="text-lg text-gray-700 italic mb-4">
                   "True high performance isn't about pushing harder—it's about understanding your mindset patterns and learning to work with them, not against them."
                 </blockquote>
                 <cite className="text-black font-semibold">— Ed Cornfield</cite>
+              </div>
               </div>
             </div>
           </div>
