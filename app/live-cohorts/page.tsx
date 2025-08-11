@@ -343,11 +343,11 @@ export default function LiveCohortsPage() {
       {/* Meet Your Guide */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-16 font-serif">
-            Meet Your Guide
-          </h2>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-black mb-6 font-serif">
+                Meet Your Guide
+              </h2>
               <h3 className="text-2xl font-semibold text-black mb-4">Ed Cornfield</h3>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Performance psychologist and expert coach with over 15 years of experience helping individuals and teams achieve healthy high performance. Ed has worked with Fortune 500 companies, elite athletes, and thousands of professionals seeking to unlock their potential.
@@ -373,33 +373,14 @@ export default function LiveCohortsPage() {
             </div>
 
             <div className="relative">
-              <div className="bg-white rounded-3xl shadow-2xl p-6">
-                <h4 className="text-xl font-bold text-black mb-4 font-serif text-center">
-                  Your 9-Week Foundation Journey
-                </h4>
-                <p className="text-sm text-gray-700 text-center mb-6">
-                  Each week, we explore one mindset together — understanding both its wisdom and its shadows.
-                </p>
-                
-                <div className="grid grid-cols-3 gap-3">
-                  {weeks.map((week) => (
-                    <div key={week.title} className={`rounded-lg ${week.bg} p-3 shadow-sm border border-black/5`}>
-                      <div className="text-center">
-                        <h5 className="text-xs font-semibold text-black mb-1">{week.title}</h5>
-                        <span className="text-xs font-medium rounded-full bg-white/70 px-2 py-0.5 border border-black/10">
-                          {week.week}
-                        </span>
-                      </div>
-                    </div>
-                  ))}
+              <div className="bg-yellow-100 rounded-3xl p-8 text-center">
+                <div className="bg-white rounded-full w-32 h-32 mx-auto mb-6 flex items-center justify-center">
+                  <User className="h-16 w-16 text-gray-400" />
                 </div>
-                
-                <div className="mt-6 bg-yellow-50 rounded-lg p-4 text-center">
-                  <blockquote className="text-sm text-gray-700 italic mb-2">
+                <blockquote className="text-lg text-gray-700 italic mb-4">
                   "True high performance isn't about pushing harder—it's about understanding your mindset patterns and learning to work with them, not against them."
-                  </blockquote>
-                  <cite className="text-black font-semibold text-sm">— Ed Cornfield</cite>
-                </div>
+                </blockquote>
+                <cite className="text-black font-semibold">— Ed Cornfield</cite>
               </div>
             </div>
           </div>
@@ -456,6 +437,48 @@ export default function LiveCohortsPage() {
           </div>
         </div>
 
+        {/* 9-Week Foundation Journey */}
+        <div className="mt-20">
+          <h3 className="text-2xl md:text-3xl font-bold text-center text-black mb-8 font-serif">
+            Your 9-Week Foundation Journey
+          </h3>
+          <p className="text-lg text-gray-700 text-center mb-12 max-w-3xl mx-auto">
+            Each week, we explore one mindset together — understanding both its wisdom and its shadows. 
+            This isn't about reaching the "best" mindset, but building awareness and choice in how you respond to life.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {weeks.map((week) => (
+              <div key={week.title} className={`rounded-xl ${week.bg} p-5 shadow-sm border border-black/5`}>
+                <div className="flex items-start justify-between">
+                  <h4 className="text-lg font-semibold text-black">{week.title}</h4>
+                  <span className="text-xs font-medium rounded-full bg-white/70 px-2 py-1 border border-black/10">
+                    {week.week}
+                  </span>
+                </div>
+                <p className="mt-2 text-sm leading-6 text-gray-800">{week.blurb}</p>
+                <p className="mt-3 text-xs font-medium text-gray-900">
+                  <span className="mr-1">{week.kickerLabel}</span>
+                  <span className="font-normal text-gray-800">{week.kickerText}</span>
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-12 rounded-2xl bg-amber-50 p-6 sm:p-8 border border-amber-100 text-center">
+            <h4 className="text-lg sm:text-xl font-semibold text-black mb-3">
+              A Journey of Awareness, Not Perfection
+            </h4>
+            <p className="text-sm sm:text-base text-gray-700 max-w-3xl mx-auto mb-6">
+              Each mindset has both wisdom and shadows. We all move between healthy and unhealthy versions of these mindsets. 
+              The power lies in building awareness so you can respond more consciously and choose more intentionally.
+            </p>
+            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium px-6 py-3 rounded-full">
+              Begin Your 9-Week Journey
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </div>
+        </div>
       </section>
 
       {/* CTA Section */}
