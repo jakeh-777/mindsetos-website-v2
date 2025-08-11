@@ -20,7 +20,6 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
-import Image from "next/image"
 
 export default function LiveCohortsPage() {
   const [email, setEmail] = useState("")
@@ -375,15 +374,14 @@ export default function LiveCohortsPage() {
             <div className="relative">
               <div className="bg-yellow-100 rounded-3xl p-8 text-center">
               <div className="relative w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden ring-2 ring-white shadow">
-            <Image
-              src="/ed-cornfield.jpeg"
-              alt="Ed Cornfield headshot"
-              fill
-              sizes="160px"
-              className="object-cover"
-              priority
-            />
-          </div>
+                <img
+                  src="/ed-cornfield.jpeg"
+                  alt="Ed Cornfield headshot"
+                  width="160"
+                  height="160"
+                  className="object-cover"
+                />
+              </div>
                 <blockquote className="text-lg text-gray-700 italic mb-4">
                   "True high performance isn't about pushing harder—it's about understanding your mindset patterns and learning to work with them, not against them."
                 </blockquote>
