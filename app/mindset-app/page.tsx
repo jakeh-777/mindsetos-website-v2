@@ -262,15 +262,15 @@ export default function MindsetAppPage() {
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Complete mindset assessment
+                    Complete mindset evaluation
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Basic mindset insights
+                    Personalised mindset insights
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Weekly check-ins
+                    Limited MindsetOS AI coaching
                   </li>
                 </ul>
                 <Button variant="outline" className="w-full rounded-full">
@@ -308,11 +308,11 @@ export default function MindsetAppPage() {
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Progress tracking & analytics
+                    30% Discount for Live Cohorts
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                    Goal setting & habit building
+                    Access to member-only MindsetOS content
                   </li>
                 </ul>
                 <Button className="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-medium rounded-full">
