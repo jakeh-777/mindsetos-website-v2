@@ -169,7 +169,7 @@ export default function MindsetAppPage() {
                     <div className="w-4 h-4 rounded-full bg-yellow-400"></div>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">Goal Progress</span>
+                    <span className="text-sm text-gray-600">Thriving Progress</span>
                     <span className="text-sm font-medium text-green-600">75%</span>
                   </div>
                 </div>
