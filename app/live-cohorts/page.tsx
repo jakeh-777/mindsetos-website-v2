@@ -363,11 +363,11 @@ export default function LiveCohortsPage() {
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  Creator of the MindsetOS framework
+                  Co-Founder of MindsetOS
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                  Worked with 500+ high performers
+                  Worked with over a thousand high performers
                 </li>
               </ul>
             </div>
