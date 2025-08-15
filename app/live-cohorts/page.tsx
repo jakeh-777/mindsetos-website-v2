@@ -110,9 +110,9 @@ export default function LiveCohortsPage() {
   const cohorts = [
     {
       title: "Foundations of Healthy High Performance",
-      duration: "6 weeks",
-      sessions: "8 sessions",
-      time: "Tuesdays & Thursdays, 7:00 PM GMT",
+      duration: "9 weeks",
+      sessions: "9 sessions",
+      time: "Tuesday, 7:00 PM GMT",
       startDate: "March 15, 2025",
       price: "£499",
       spots: "12 spots remaining",
