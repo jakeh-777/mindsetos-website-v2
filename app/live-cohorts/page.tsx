@@ -340,8 +340,53 @@ export default function LiveCohortsPage() {
         </div>
       </section>
 
-      {/* Meet Your Guide */}
+      {/* 9-Week Foundation Journey */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-8 font-serif">
+            Your 9-Week Foundation Journey
+          </h2>
+          <p className="text-lg text-gray-700 text-center mb-12 max-w-3xl mx-auto">
+            Each week, we explore one mindset together, understanding both its wisdom and its shadows. 
+            This isn't about reaching the "best" mindset, but building awareness and choice in how you respond to life.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {weeks.map((week) => (
+              <div key={week.title} className={`rounded-xl ${week.bg} p-5 shadow-sm border border-black/5`}>
+                <div className="flex items-start justify-between">
+                  <h4 className="text-lg font-semibold text-black">{week.title}</h4>
+                  <span className="text-xs font-medium rounded-full bg-white/70 px-2 py-1 border border-black/10">
+                    {week.week}
+                  </span>
+                </div>
+                <p className="mt-2 text-sm leading-6 text-gray-800">{week.blurb}</p>
+                <p className="mt-3 text-xs font-medium text-gray-900">
+                  <span className="mr-1">{week.kickerLabel}</span>
+                  <span className="font-normal text-gray-800">{week.kickerText}</span>
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-12 rounded-2xl bg-amber-50 p-6 sm:p-8 border border-amber-100 text-center">
+            <h4 className="text-lg sm:text-xl font-semibold text-black mb-3">
+              A Journey of Awareness, Not Perfection
+            </h4>
+            <p className="text-sm sm:text-base text-gray-700 max-w-3xl mx-auto mb-6">
+              Each mindset has both wisdom and shadows. We all move between healthy and unhealthy versions of these mindsets. 
+              The power lies in building awareness so you can respond more consciously and choose more intentionally.
+            </p>
+            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium px-6 py-3 rounded-full">
+              Begin Your 9-Week Journey
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Meet Your Guide */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -393,7 +438,7 @@ export default function LiveCohortsPage() {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-16 font-serif">
             How Live Cohorts Work
@@ -439,49 +484,6 @@ export default function LiveCohortsPage() {
                 Practice new skills, get feedback, and build lasting mindset mastery.
               </p>
             </div>
-          </div>
-        </div>
-
-        {/* 9-Week Foundation Journey */}
-        <div className="mt-20">
-          <h3 className="text-2xl md:text-3xl font-bold text-center text-black mb-8 font-serif">
-            Your 9-Week Foundation Journey
-          </h3>
-          <p className="text-lg text-gray-700 text-center mb-12 max-w-3xl mx-auto">
-            Each week, we explore one mindset together, understanding both its wisdom and its shadows. 
-            This isn't about reaching the "best" mindset, but building awareness and choice in how you respond to life.
-          </p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {weeks.map((week) => (
-              <div key={week.title} className={`rounded-xl ${week.bg} p-5 shadow-sm border border-black/5`}>
-                <div className="flex items-start justify-between">
-                  <h4 className="text-lg font-semibold text-black">{week.title}</h4>
-                  <span className="text-xs font-medium rounded-full bg-white/70 px-2 py-1 border border-black/10">
-                    {week.week}
-                  </span>
-                </div>
-                <p className="mt-2 text-sm leading-6 text-gray-800">{week.blurb}</p>
-                <p className="mt-3 text-xs font-medium text-gray-900">
-                  <span className="mr-1">{week.kickerLabel}</span>
-                  <span className="font-normal text-gray-800">{week.kickerText}</span>
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-12 rounded-2xl bg-amber-50 p-6 sm:p-8 border border-amber-100 text-center">
-            <h4 className="text-lg sm:text-xl font-semibold text-black mb-3">
-              A Journey of Awareness, Not Perfection
-            </h4>
-            <p className="text-sm sm:text-base text-gray-700 max-w-3xl mx-auto mb-6">
-              Each mindset has both wisdom and shadows. We all move between healthy and unhealthy versions of these mindsets. 
-              The power lies in building awareness so you can respond more consciously and choose more intentionally.
-            </p>
-            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium px-6 py-3 rounded-full">
-              Begin Your 9-Week Journey
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
           </div>
         </div>
       </section>
