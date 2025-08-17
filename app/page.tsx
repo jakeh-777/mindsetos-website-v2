@@ -67,6 +67,9 @@ export default function HomePage() {
               <Link href="/live-cohorts" className="text-gray-900 hover:text-gray-600 transition-colors">
                 Live Cohorts
               </Link>
+              <Link href="/pricing" className="text-gray-900 hover:text-gray-600 transition-colors">
+                Pricing
+              </Link>
             </nav>
 
             {/* CTA Button */}
@@ -94,6 +97,9 @@ export default function HomePage() {
                 </Link>
                 <Link href="/live-cohorts" className="text-gray-900 hover:text-gray-600 transition-colors">
                   Live Cohorts
+                </Link>
+                <Link href="/pricing" className="text-gray-900 hover:text-gray-600 transition-colors">
+                  Pricing
                 </Link>
                 <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium w-full">
                   Download the App
@@ -342,6 +348,9 @@ export default function HomePage() {
                 </Link>
                 <Link href="/live-cohorts" className="block text-gray-300 hover:text-white transition-colors">
                   Live Cohorts
+                </Link>
+                <Link href="/pricing" className="block text-gray-300 hover:text-white transition-colors">
+                  Pricing
                 </Link>
               </div>
             </div>

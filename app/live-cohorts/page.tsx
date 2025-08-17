@@ -197,6 +197,9 @@ export default function LiveCohortsPage() {
               <Link href="/live-cohorts" className="text-gray-900 hover:text-gray-600 transition-colors font-medium">
                 Live Cohorts
               </Link>
+              <Link href="/pricing" className="text-gray-900 hover:text-gray-600 transition-colors">
+                Pricing
+              </Link>
             </nav>
 
             <div className="hidden md:block">
@@ -546,6 +549,9 @@ export default function LiveCohortsPage() {
                 </Link>
                 <Link href="/live-cohorts" className="block text-gray-300 hover:text-white transition-colors">
                   Live Cohorts
+                </Link>
+                <Link href="/pricing" className="block text-gray-300 hover:text-white transition-colors">
+                  Pricing
                 </Link>
               </div>
             </div>
