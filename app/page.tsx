@@ -205,7 +205,7 @@ export default function HomePage() {
       {/* Who It's For Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-16 font-serif">Who MindsetOS Is For</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-16 font-serif">Who MindsetOS is For</h2>
 
           <div className="grid md:grid-cols-2 gap-12">
             {/* Individuals Card */}
