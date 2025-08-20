@@ -25,6 +25,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
 
 export default function MindsetAppPage() {
+  const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly')
   const [email, setEmail] = useState("")
   const [isSubmitted, setIsSubmitted] = useState(false)
 
@@ -253,6 +254,35 @@ export default function MindsetAppPage() {
             Choose Your Plan
           </h2>
 
+          {/* Billing Toggle */}
+          <div className="flex justify-center mb-12">
+            <div className="bg-gray-100 rounded-full p-1 shadow-sm border border-gray-200">
+              <button
+                onClick={() => setBillingCycle('monthly')}
+                className={`px-6 py-2 rounded-full text-sm font-medium transition-all ${
+                  billingCycle === 'monthly'
+                    ? 'bg-yellow-400 text-black shadow-sm'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
+              >
+                Monthly
+              </button>
+              <button
+                onClick={() => setBillingCycle('yearly')}
+                className={`px-6 py-2 rounded-full text-sm font-medium transition-all ${
+                  billingCycle === 'yearly'
+                    ? 'bg-yellow-400 text-black shadow-sm'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
+              >
+                Yearly
+                <span className="ml-2 text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">
+                  Save 28%
+                </span>
+              </button>
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-2 gap-8">
             {/* Free Plan */}
             <Card className="border-2 border-gray-200 shadow-lg">
@@ -293,8 +323,20 @@ export default function MindsetAppPage() {
                 <h3 className="text-2xl font-bold text-black mb-2 font-serif">Explore</h3>
                 <p className="text-gray-600 mb-6">Full access to AI coaching and advanced features</p>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-black">￡6.99</span>
-                  <span className="text-gray-600">/month</span>
+                  <div className="flex items-baseline">
+                    <span className="text-4xl font-bold text-black">
+                      {billingCycle === 'monthly' ? '£6.99' : '£59.99'}
+                    </span>
+                    <span className="text-gray-600 ml-1">
+                      {billingCycle === 'monthly' ? '/month' : '/year'}
+                    </span>
+                  </div>
+                  {billingCycle === 'yearly' && (
+                    <div className="mt-1">
+                      <span className="text-sm text-gray-500 line-through">£83.88</span>
+                      <span className="text-sm text-green-600 ml-2 font-medium">Save 28%</span>
+                    </div>
+                  )}
                 </div>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-center text-gray-700">
