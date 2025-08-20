@@ -147,8 +147,63 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Who It's For Section */}
+      {/* Why Mindset Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-8 font-serif">Why Focus on Mindset?</h2>
+          <p className="text-xl text-gray-700 text-center mb-16 max-w-4xl mx-auto leading-relaxed">
+            Mindset is the foundation of healthy high performance. It shapes how you lead, how you connect, and how you perform under pressure.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <CardContent className="p-8 text-center">
+                <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                  <Brain className="h-8 w-8 text-yellow-600" />
+                </div>
+                <h3 className="text-xl font-bold text-black mb-4 font-serif">Build Awareness</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Develop the self-awareness to recognize your patterns and choose your responses consciously.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <CardContent className="p-8 text-center">
+                <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                  <Target className="h-8 w-8 text-yellow-600" />
+                </div>
+                <h3 className="text-xl font-bold text-black mb-4 font-serif">Gain Flexibility</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Learn to adapt and respond effectively across different situations and challenges.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <CardContent className="p-8 text-center">
+                <div className="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                  <Star className="h-8 w-8 text-yellow-600" />
+                </div>
+                <h3 className="text-xl font-bold text-black mb-4 font-serif">Bring Out Your Best</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Perform at your highest level in work, relationships, and leadership with sustainable practices.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="bg-yellow-50 rounded-2xl p-8 text-center border border-yellow-100">
+            <h3 className="text-2xl font-bold text-black mb-4 font-serif">This is not just about getting more done.</h3>
+            <p className="text-xl text-gray-700 leading-relaxed">
+              It's about doing the right things, for the right reasons, from the right state of mind.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Who It's For Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-16 font-serif">Who It's For</h2>
 
