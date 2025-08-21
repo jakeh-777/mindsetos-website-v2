@@ -147,9 +147,9 @@ export default function PricingPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-black mb-6 font-serif leading-tight">
-            Choose Your Path to
+            Choose your path to
             <br />
-            Healthy High Performance
+            healthy high performance
           </h1>
           <p className="text-xl text-gray-700 mb-12 leading-relaxed">
             From individual coaching to team transformation, find the right solution for your mindset development journey.
